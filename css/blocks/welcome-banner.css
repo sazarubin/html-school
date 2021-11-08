@@ -1,6 +1,7 @@
 .welcome-banner {
     height: 389px;
     position: relative;
+    margin-bottom: 32px;
 }
 
 .welcome-banner-text {
