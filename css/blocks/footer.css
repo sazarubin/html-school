@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 40px;
+}
+
+.visit-sedona {
+    font-size: 21px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-link {
+    background-color: #81b3d2;
+    fill: #ffffff;
+    display: flex;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+}
+
+.developed-by-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.html-academy-link {
+    display: block;
+    height: 34px;
+}
+
+.html-academy-icon {
+    height: 100%;
+}

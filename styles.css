@@ -2,3 +2,9 @@
 
 @import "css/body.css";
 @import "css/font.css";
+
+@import "css/blocks/header.css";
+@import "css/blocks/welcome-banner.css";
+@import "css/blocks/benefits.css";
+@import "css/blocks/booking.css";
+@import "css/blocks/footer.css";
