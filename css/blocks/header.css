@@ -1,37 +1,107 @@
 .header {
-    height: 56px;
-    position: relative;
-    z-index: 1;
+  height: 56px;
+  position: relative;
+  z-index: 1;
 }
 
 .nav-menu {
-    position: absolute;
-    top: 0;
-    width: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 .nav-menu .menu-item {
-    background-color: #81b3d2;
-    height: 55px;
-    color: #ffffff;
-    mix-blend-mode: normal;
-    box-shadow: 0px 1px 0px rgba(1, 1, 1, 0.2), inset 0px 1px 0px rgba(255, 255, 255, 0.2);
+  background-color: #81b3d2;
+  height: 55px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  box-shadow: 0px 1px 0px rgba(1, 1, 1, 0.2), inset 0px 1px 0px rgba(255, 255, 255, 0.2);
 }
 
 .nav-menu .menu-link {
-    color: inherit;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
+  color: inherit;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .header .burger-button {
-    position: absolute;
-    right: 0;
-    top: 0;
+  position: absolute;
+  right: 17px;
+  top: 17px;
+  background-color: transparent;
+  border: none;
+  font-size: 0;
+  width: 22px;
+  height: 22px;
 }
+
+.cross .burger-button-line {
+  background-color: #ffffff;
+}
+
+.burger-button-line {
+  width: 100%;
+  height: 20%;
+  background-color: #81b3d2;
+  position: absolute;
+  left: 0;
+  transform-origin: 7.3% 52.1%;
+}
+
+.burger-button-line:nth-child(1) {
+  top: 0;
+}
+
+.burger-button-line:nth-child(2) {
+  top: 40%;
+}
+
+.nav-menu,
+.burger-button-line {
+  transition: 0.1s ease-in-out;
+}
+
+.nav-menu.hide {
+  opacity: 0;
+}
+
+.cross .burger-button-line:nth-child(2) {
+  opacity: 0;
+}
+
+.cross .burger-button-line:nth-child(1),
+.cross .burger-button-line:nth-child(3) {
+  width: 133%;
+}
+
+.cross .burger-button-line:nth-child(1) {
+  transform: rotate(45deg);
+}
+
+.cross .burger-button-line:nth-child(3) {
+  transform: rotate(-45deg);
+}
+
+.burger-button-line:nth-child(3) {
+  bottom: 0;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* check if cross is symmetrical */
+/* .cross.burger-button {
+  animation: rotating 0.1s linear infinite;
+} */
