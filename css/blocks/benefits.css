@@ -23,18 +23,26 @@
   transform: translateX(-50%);
 }
 
+.benefits-card-title, .benefits-subcard-title {
+  font-size: 18px;
+}
+
+
+.benefits-card-number, .benefits-subcard-content {
+  line-height: 21px;
+}
+
 .benefits-card.large {
   background-color: #81b3d2;
   padding-top: 40px;
 }
 
 .benefits-card.large,
-.benefits-card.large h3 {
+.benefits-card.large .benefits-card-title {
   color: #ffffff;
 }
 
-.benefits-card.large h3,
-.benefits-card.small h3 {
+.benefits-card-title {
   margin-top: 0;
 }
 

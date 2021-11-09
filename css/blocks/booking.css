@@ -1,22 +1,16 @@
 .booking {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 30px;
-    margin: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 30px 20px;
 }
 
 .booking-title {
-    display: block;
-    size: 21px;
+  display: block;
+  size: 21px;
 }
 
-.booking-button {
-    width: 100%;
-    height: 58px;
-    background-color: #81b3d2;
-    font-size: 21px;
-    font-weight: bold;
-    color: #ffffff;
-    border: none;
+.booking-content {
+  line-height: 24px;
 }

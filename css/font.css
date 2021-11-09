@@ -1,14 +1,1 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
-
-.body {
-  font-family: "PT Sans", Arial, sans-serif;
-  line-height: 26px;
-  font-size: 14px;
-  text-transform: uppercase;
-  text-align: center;
-  color: #333333;
-}
-
-h2, h3, h4, strong {
-  color: #000000;
-}

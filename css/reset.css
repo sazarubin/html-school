@@ -16,4 +16,9 @@ img {
 button {
   font: inherit;
   text-transform: inherit;
+  border: none;
+}
+
+h2, h3, h4, strong {
+  color: #000000;
 }
