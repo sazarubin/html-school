@@ -1,6 +1,7 @@
 .feedback-lead-title {
     text-transform: uppercase;
     font-size: 18px;
+    display: block;
     margin-bottom: 29px;
 }
 
