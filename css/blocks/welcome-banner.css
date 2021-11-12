@@ -1,7 +1,6 @@
 .welcome-banner {
     height: 389px;
     position: relative;
-    margin-bottom: 32px;
 }
 
 .welcome-banner-text {
@@ -10,12 +9,4 @@
     left: 50%;
     width: 282px;
     transform: translateX(-50%);
-}
-
-.welcome-banner-mask {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 1201px;
 }

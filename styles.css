@@ -3,6 +3,7 @@
 @import "css/body.css";
 @import "css/font.css";
 
+@import "css/blocks/mixins.css";
 @import "css/blocks/header.css";
 @import "css/blocks/welcome-banner.css";
 @import "css/blocks/benefits.css";

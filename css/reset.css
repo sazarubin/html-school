@@ -19,6 +19,6 @@ button {
   border: none;
 }
 
-h2, h3, h4, strong {
-  color: #000000;
+h2, h3, h4 {
+  margin: 0;
 }
