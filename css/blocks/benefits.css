@@ -7,8 +7,30 @@
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translate(-50%, -99.8%);
+  transform: translate(-50%, -100%);
   width: 1201px;
+}
+
+/* .benefits-title,
+.benefits-subtitle,
+.benefits-card-number,
+.benefits-card-desc,
+.benefits-subcard {
+  padding-left: 18px;
+  padding-right: 18px;
+} */
+
+.benefits-card,
+.benefits-subcard {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.benefits-title,
+.benefits-subtitle,
+.benefits-card-title,
+.benefits-card-number {
+  margin-bottom: 10px;
 }
 
 .benefits-triangle-splitter {
@@ -30,6 +52,7 @@
 .benefits-card.large {
   background-color: #81b3d2;
   padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .benefits-card.large,
@@ -37,13 +60,10 @@
   color: #ffffff;
 }
 
-.benefits-card-title {
-  margin-top: 0;
-}
-
 .benefits-card.small {
   background-color: #eeeeee;
-  padding: 25px 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .benefits-item:not(:last-child) .benefits-card.small::after {
@@ -54,14 +74,18 @@
   border-bottom: 1px solid #d6d6d6;
 }
 
-.benefits-card.small p {
-  margin-bottom: 0;
-}
-
 .benefits-subcard {
   display: flex;
   align-items: flex-start;
-  margin: 20px;
+}
+
+.benefits-subcards {
+  padding-top: 20px;
+  padding-bottom: 20px;
+} 
+
+.benefits-subcard:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 .benefits-subcard-icon-wrapper {
@@ -82,8 +106,3 @@
 .benefits-subcard-text {
   text-align: left;
 }
-
-.benefits-subcard-title {
-  margin: 10px 0;
-}
-

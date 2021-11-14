@@ -2,8 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 30px;
-  margin: 30px 20px;
+  padding: 30px 18px;
 }
 
 .booking-title {
@@ -12,4 +11,24 @@
 
 .booking-content {
   line-height: 24px;
+}
+
+.booking-title, .booking-content {
+  margin-bottom: 30px;
+}
+
+.map {
+  position: relative;
+}
+
+.map-marker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 27px;
+  height: 27px;
+  background-color: #81b3d3;
+  border: 5px solid #ffffff;
 }
