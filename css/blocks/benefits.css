@@ -11,17 +11,10 @@
   width: 1201px;
 }
 
-/* .benefits-title,
+.benefits-title,
 .benefits-subtitle,
-.benefits-card-number,
-.benefits-card-desc,
-.benefits-subcard {
-  padding-left: 18px;
-  padding-right: 18px;
-} */
-
 .benefits-card,
-.benefits-subcard {
+.benefits-subcards {
   padding-left: 18px;
   padding-right: 18px;
 }
@@ -29,7 +22,7 @@
 .benefits-title,
 .benefits-subtitle,
 .benefits-card-title,
-.benefits-card-number {
+.benefits-card-paragraph:not(:last-child) {
   margin-bottom: 10px;
 }
 
@@ -105,4 +98,9 @@
 
 .benefits-subcard-text {
   text-align: left;
+  padding-top: 8px;
+}
+
+.benefits-subcard-title {
+  margin-bottom: 24px;
 }
