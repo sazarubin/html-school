@@ -181,7 +181,76 @@
       </div>
     </div>
     <form>
-      FORM
+      <fieldset>
+        <legend>Представьтесь</legend>
+        <label>
+          Имя
+          <abbr aria-required aria-label="required">*</abbr>:
+          <input type="text" name="lastName">
+        </label>
+        <label>
+          Фамилия
+          <input type="text"></label>
+        <label>
+          Отчество
+          <input type="text">
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Контакнтая информация</legend>
+        <label>
+          Контакнтый телефон:
+          <input type="tel">
+        </label>
+        <label>
+          Электронная почта
+          <abbr aria-required aria-label="required">*</abbr>:
+          <input type="email">
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Ваше общее впечатление</legend>
+        <label>
+          <input type="radio">
+          Скорее положительное
+        </label>
+        <label>
+          <input type="radio">
+          Скорее отрицательное
+        </label>
+        <label>
+          <input type="radio">
+          Затрудняюсь ответить
+        </label>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Посещенные достопримечательности</legend>
+        <label>
+          <input type="checkbox">
+          Мост Дьявола
+        </label>
+        <label>
+          <input type="checkbox">
+          Гора-Колокол
+        </label>
+        <label>
+          <input type="checkbox">
+          Слайд-парк
+        </label>
+        <label>
+          <input type="checkbox">
+          Красные скалы
+        </label>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Опишите свои эмоции:</legend>
+        <textarea name=""cols="30" rows="10">Опишите подробно все свои восторги</textarea>
+      </fieldset>
+
+      <button class="button" type="submit">Отправить отзыв</button>
     </form>
   </main>
 
