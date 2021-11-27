@@ -71,7 +71,7 @@
 }
 
 input[type="checkbox"] + .form-control-label,
-input[type="radio"] + .form-control-label {
+.radio + .form-control-label {
     text-transform: none;
     font-weight: bold;
 }
