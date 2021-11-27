@@ -25,8 +25,12 @@
 
 .feedback-comment {
     height: 160px;
-    padding: 13px 20px;
+    padding: 13px 22px;
     font-weight: bold;
+}
+
+.feedback-comment:focus {
+    padding: 9px 18px;
 }
 
 .form-control {
@@ -46,6 +50,10 @@
 .form-control.vertical .form-control-label,
 .form-control .input-text {
     padding-left: 22px;
+}
+
+.form-control .input-text:focus {
+    padding-left: 18px;
 }
 
 .form-control-label {
