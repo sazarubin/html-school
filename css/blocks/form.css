@@ -70,7 +70,7 @@
     margin-bottom: 14px;
 }
 
-input[type="checkbox"] + .form-control-label,
+.checkbox + .form-control-label,
 .radio + .form-control-label {
     text-transform: none;
     font-weight: bold;

@@ -62,16 +62,20 @@
   width: 1px;
 }
 
-.radio-marker {
+.radio-marker, .checkbox-check {
   display: block;
   width: 100%;
   height: 100%;
   background-color: #f2f2f2;
+}
+
+.radio-marker {
   border-radius: 50%;
   border: 18px solid #f2f2f2;
 }
 
-input:hover + .radio-marker {
+input:hover + .radio-marker,
+input:focus + .radio-marker {
   border-color: #e5e5e5;
   background-color: #333333;
 }
@@ -80,9 +84,26 @@ input:checked + .radio-marker {
   background-color: #000;
 }
 
-.radio {
+.radio, .checkbox {
   display: block;
   width: 58px;
   height: 58px;
   margin-right: 14px;
+}
+
+.checkbox-check {
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-position: 53% 52%;
+  background-size: 23px;
+}
+
+input:hover + .checkbox-check,
+input:focus + .checkbox-check {
+  background-color: #e5e5e5;
+  
+}
+
+input:checked + .checkbox-check {
+  background-image: url("data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 17'%3E%3Cpath d='m22.93 1.32-1.1-1.1c-.3-.3-.9-.3-1.2 0l-11.9 11.9-6.2-6.2c-.3-.3-.9-.3-1.2 0l-1.1 1.1c-.3.3-.3.9 0 1.2l7.8 7.8c.2.2.4.2.6.2.2 0 .4-.1.6-.2l13.5-13.5c.5-.3.5-.8.2-1.2Z' fill='%23333'/%3E%3C/svg%3E");
 }
