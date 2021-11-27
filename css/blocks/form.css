@@ -52,7 +52,14 @@
     display: inline-block;
     flex-shrink: 0;
     text-align: start;
+}
+
+.form-control:not(.vertical) .form-control-label {
     margin-right: 14px;
+}
+
+.form-control.vertical .form-control-label {
+    margin-bottom: 14px;
 }
 
 input[type="checkbox"] + .form-control-label,
