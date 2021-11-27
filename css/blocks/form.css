@@ -1,4 +1,62 @@
 .feedback-lead {
     padding-bottom: 16px;
+    padding-left: 18px;
+    padding-right: 18px;
     border-bottom: 1px solid #e5e5e5;
+}
+
+.feedback-fieldset,
+.submit-button-wrapper {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.feedback-fieldset {
+    padding-bottom: 28px;
+}
+
+.feedback-fieldset:not(:last-of-type) {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.feedback-fieldset, .feedback-fieldset legend {
+    padding-top: 20px;
+}
+
+.feedback-comment {
+    height: 160px;
+    padding: 13px 20px;
+    font-weight: bold;
+}
+
+.form-control {
+    display: flex;
+    align-items: center;
+}
+
+.form-control:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.form-control.vertical {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-control.vertical .form-control-label,
+.form-control .input-text {
+    padding-left: 22px;
+}
+
+.form-control-label {
+    display: inline-block;
+    flex-shrink: 0;
+    text-align: start;
+    margin-right: 14px;
+}
+
+input[type="checkbox"] + .form-control-label,
+input[type="radio"] + .form-control-label {
+    text-transform: none;
+    font-weight: bold;
 }

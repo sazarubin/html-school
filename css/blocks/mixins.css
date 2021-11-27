@@ -12,3 +12,19 @@
   color: #ffffff;
   border: none;
 }
+
+.textarea, .input-text {
+  width: 100%;
+  background-color: #f2f2f2;
+  border-radius: 0;
+  border: none;
+}
+
+.input-text {
+  height: 58px;
+}
+
+.input-text::placeholder {
+  font-weight: bold;
+  color: #000000;
+}

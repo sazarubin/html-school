@@ -180,77 +180,85 @@
         Помогите нашим отелям стать лучше! оставьте отзыв о&nbsp;них, а&nbsp;также о&nbsp;посещенных вами достопримечательностях
       </div>
     </div>
-    <form>
-      <fieldset>
-        <legend>Представьтесь</legend>
-        <label>
-          Имя
-          <abbr aria-required aria-label="required">*</abbr>:
-          <input type="text" name="lastName">
+    <form class="feedeback-form">
+      <fieldset class="feedback-fieldset">
+        <legend class="title">Представьтесь:</legend>
+        <label class="form-control">
+          <span class="form-control-label">
+            Имя<abbr aria-required aria-label="required">*</abbr>:
+          </span>
+          <input class="input-text" type="text" name="lastName" placeholder="Петр">
         </label>
-        <label>
-          Фамилия
-          <input type="text"></label>
-        <label>
-          Отчество
-          <input type="text">
+        <label class="form-control">
+          <span class="form-control-label">
+            Фамилия:
+          </span>
+          <input class="input-text" type="text" placeholder="Иванов">
+        </label>
+        <label class="form-control">
+          <span class="form-control-label">Отчество:</span>
+          <input class="input-text" type="text" placeholder="Александрович">
         </label>
       </fieldset>
 
-      <fieldset>
-        <legend>Контакнтая информация</legend>
-        <label>
-          Контакнтый телефон:
-          <input type="tel">
+      <fieldset class="feedback-fieldset">
+        <legend class="title">Контакнтая информация:</legend>
+        <label class="form-control vertical">
+          <span class="form-control-label">Контакнтый телефон:</span>
+          <input class="input-text" type="tel" placeholder="Введите телефон">
         </label>
-        <label>
-          Электронная почта
-          <abbr aria-required aria-label="required">*</abbr>:
-          <input type="email">
+        <label class="form-control vertical">
+          <span class="form-control-label">
+            Электронная почта<abbr aria-required aria-label="required">*</abbr>:
+          </span>
+          <input class="input-text" type="email" placeholder="Введите e-mail">
         </label>
-      </fieldset>
-      <fieldset>
-        <legend>Ваше общее впечатление</legend>
-        <label>
-          <input type="radio">
-          Скорее положительное
-        </label>
-        <label>
-          <input type="radio">
-          Скорее отрицательное
-        </label>
-        <label>
-          <input type="radio">
-          Затрудняюсь ответить
-        </label>
-      </fieldset>
-      
-      <fieldset>
-        <legend>Посещенные достопримечательности</legend>
-        <label>
-          <input type="checkbox">
-          Мост Дьявола
-        </label>
-        <label>
-          <input type="checkbox">
-          Гора-Колокол
-        </label>
-        <label>
-          <input type="checkbox">
-          Слайд-парк
-        </label>
-        <label>
-          <input type="checkbox">
-          Красные скалы
-        </label>
-      </fieldset>
-      
-      <fieldset>
-        <legend>Опишите свои эмоции:</legend>
-        <textarea name=""cols="30" rows="10">Опишите подробно все свои восторги</textarea>
       </fieldset>
 
-      <button class="button" type="submit">Отправить отзыв</button>
+      <fieldset class="feedback-fieldset">
+        <legend class="title">Ваше общее впечатление:</legend>
+        <label class="form-control">
+          <input type="radio">
+          <span class="form-control-label">Скорее положительное</span>
+        </label>
+        <label class="form-control">
+          <input type="radio">
+          <span class="form-control-label">Скорее отрицательное</span>
+        </label>
+        <label class="form-control">
+          <input type="radio">
+          <span class="form-control-label">Затрудняюсь ответить</span>
+        </label>
+      </fieldset>
+      
+      <fieldset class="feedback-fieldset">
+        <legend class="title">Посещенные достопримечательности:</legend>
+        <label class="form-control">
+          <input type="checkbox">
+          <span class="form-control-label">Мост Дьявола</span>
+        </label>
+        <label class="form-control">
+          <input type="checkbox">
+          <span class="form-control-label">Гора-Колокол</span>
+        </label>
+        <label class="form-control">
+          <input type="checkbox">
+          <span class="form-control-label">Слайд-парк</span>
+        </label>
+        <label class="form-control">
+          <input type="checkbox">
+          <span class="form-control-label">Красные скалы</span>
+        </label>
+      </fieldset>
+      
+      <fieldset class="feedback-fieldset">
+        <legend class="title">Опишите свои эмоции:</legend>
+        <textarea class="textarea feedback-comment" name="comment"cols="30" rows="10">Опишите подробно все свои восторги</textarea>
+      </fieldset>
+
+      <div class="submit-button-wrapper">
+        <button class="button" type="submit">Отправить отзыв</button>
+      </div>
     </form>
   </main>
 
