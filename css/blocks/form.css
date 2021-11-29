@@ -48,6 +48,10 @@
     padding-left: 22px;
 }
 
+.form-control .input-text {
+    padding-right: 22px;
+}
+
 .form-control-label {
     display: inline-block;
     flex-shrink: 0;
