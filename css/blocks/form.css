@@ -1,12 +1,17 @@
 .feedback-lead {
+    padding-top: 36px;
     padding-bottom: 16px;
-    padding-left: 18px;
-    padding-right: 18px;
     border-bottom: 1px solid #e5e5e5;
 }
 
+.feedback-lead-title {
+    display: block;
+    margin-bottom: 26px;
+}
+
 .feedback-fieldset,
-.submit-button-wrapper {
+.submit-button-wrapper,
+.feedback-lead {
     padding-left: 18px;
     padding-right: 18px;
 }

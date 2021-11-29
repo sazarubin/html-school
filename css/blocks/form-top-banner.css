@@ -1,7 +1,6 @@
 .form-banner {
     position: relative;
     height: 157px;
-    margin-bottom: 36px;
 }
 
 .form-banner-text {
@@ -10,7 +9,6 @@
     width: 229px;
     left: 50%;
     transform: translateX(-50%);
-    /* z-index: 1; */
 }
 
 .form-banner-mask {
