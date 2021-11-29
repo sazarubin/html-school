@@ -87,6 +87,7 @@ input:checked + .radio-marker {
   width: 58px;
   height: 58px;
   margin-right: 14px;
+  flex-shrink: 0;
 }
 
 .checkbox-check {

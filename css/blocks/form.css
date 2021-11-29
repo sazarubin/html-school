@@ -62,8 +62,11 @@
     margin-bottom: 14px;
 }
 
-.checkbox + .form-control-label,
-.radio + .form-control-label {
-    text-transform: none;
+.checkbox + .checkbox-label,
+.radio + .radio-label {
     font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: start;
+    text-transform: none;
 }
