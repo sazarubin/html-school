@@ -29,10 +29,6 @@
     font-weight: bold;
 }
 
-.feedback-comment:focus {
-    padding: 9px 18px;
-}
-
 .form-control {
     display: flex;
     align-items: center;
@@ -50,10 +46,6 @@
 .form-control.vertical .form-control-label,
 .form-control .input-text {
     padding-left: 22px;
-}
-
-.form-control .input-text:focus {
-    padding-left: 18px;
 }
 
 .form-control-label {
