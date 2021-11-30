@@ -33,6 +33,7 @@
     height: 160px;
     padding: 13px 22px;
     font-weight: bold;
+    resize: vertical;
 }
 
 .form-control {
