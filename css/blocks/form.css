@@ -51,9 +51,6 @@
 .form-control.vertical .form-control-label,
 .form-control .input-text {
     padding-left: 22px;
-}
-
-.form-control .input-text {
     padding-right: 22px;
 }
 
