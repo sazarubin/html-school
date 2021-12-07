@@ -1,12 +1,34 @@
 .welcome-banner {
-    height: 389px;
+    min-height: 389px;
+    max-height: 518px;
+    height: 121vw;
     position: relative;
+    background-image: url('../../img/back-tablet.jpg');
+    background-color: #808f9a;
+    background-size: cover;
+    background-position: center bottom;
 }
 
-.welcome-banner-text {
+.welcome-text-wrapper {
     position: absolute;
-    top: 90px;
+    display: flex;
+    align-items: flex-end;
+    top: 20%;
     left: 50%;
-    width: 282px;
+    min-width: 282px;
+    width: 88.125%;
+    max-width: 461px;
+    min-height: 214px;
     transform: translateX(-50%);
+}
+
+.welcome-text {
+    width: 100%;
+    max-height: 100%;
+}
+
+@media(min-width: 768px) {
+    .welcome-banner {
+        background-image: url('../../img/back-desktop.jpg');
+    }
 }

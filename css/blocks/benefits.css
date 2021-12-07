@@ -3,12 +3,18 @@
   padding: 32px 0 0;
 }
 
+.benefits-title-top-wrapper {
+  overflow-x: hidden;
+  position: absolute;
+  height: 57px;
+}
+
 .benefits-title-top {
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 50%;
-  transform: translate(-50%, -100%);
-  width: 1201px;
+  transform: translateX(-50%);
+  width: 1200px;
 }
 
 .benefits-title,
@@ -103,4 +109,10 @@
 
 .benefits-subcard-title {
   margin-bottom: 24px;
+}
+
+@media(min-width: 768px) {
+  .benefits-triangle-splitter {
+    display: none;
+  }
 }
